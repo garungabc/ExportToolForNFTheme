@@ -1,0 +1,52 @@
+@media (max-width:1200px){
+	.notification{
+		.icon:before{
+			color: #fff;
+		}
+
+		.icon{
+			sup{
+				color: #fff;
+				border: 1px solid #fff;
+			}
+		}
+	}
+}
+
+@media(max-width: 1075px){
+	.banner{
+		.header_hope{
+			.menu_logo{
+				.user_search{
+					#search_form.login_us{
+						margin-left: 35px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:485px){
+	.notification{
+		.list_notification{
+			right: -60px;
+		}
+	}
+}
+
+@media (max-width:420px){
+	.notification{
+		.list_notification{
+			width: 320px;
+		}
+	}
+}
+
+@media (max-width:345px){
+	.notification{
+		.list_notification{
+			width: 285px;
+		}
+	}
+}

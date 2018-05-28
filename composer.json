@@ -1,0 +1,17 @@
+{
+    "name": "vicoders/tools",
+    "description": "Extension kit for NF Theme",
+    "license": "MIT",
+    "authors": [{
+        "name": "Garung",
+        "email": "daudq.info@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Vicoders\\Tool\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
